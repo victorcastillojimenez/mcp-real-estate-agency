@@ -1,0 +1,31 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Base de datos local (se regenera con setup_db.py)
+*.db
+*.sqlite3
+
+# PDFs generados
+reports/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+mcp>=1.0.0
+fastmcp
+aiosqlite
+httpx
+streamlit>=1.32.0
+plotly
+reportlab
+folium
+streamlit-folium
+pandas
